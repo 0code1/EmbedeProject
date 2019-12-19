@@ -25,3 +25,11 @@ ___
 
 ![Minion](flowsharts.png)
 ---
+___
+
+# The ADC flowshart
+
+![Minion](flowsharts.png)
+
+___
+The ADC interrupt will be runnning  everytime that the ADCSRA bit is flip to 
