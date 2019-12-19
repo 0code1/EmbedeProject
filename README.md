@@ -5,9 +5,21 @@ For this project I have choose to use an LCD, Keypad, hue ,  thermometer and a f
  The objective of my project is to be able to measure a house temperature, and be able to display it on an LCD (change temperature) , at wish the fan will be regulate depending on the temperature on the house, the keypad will be use to change the temperature in the house.
 
 ***
-
+# the program is on the Feature branch since the project is unfinish.
+***
+---
 # Main Flowshart
 
 ![Minion](Introflow.png)
-![Alt text](Introflow.png "Main flowshart")
-![Alt text][id]
+---
+___
+
+in our main C file, where we start the program there will be 2 interrupt and 2 timer interrupt.
+the Init represent all the funtion that will be Initialise under the start,
+and of course our super loop
+
+___
+
+---
+# 
+---
