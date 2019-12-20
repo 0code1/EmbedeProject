@@ -33,6 +33,7 @@ ___
 
 ___
 
+With the help of ADC we will be able to read our Thermometer value, because ;
 The ADC converts an anlog input voltage to a 10-bit digital value. wiht the help of an ADCSR bit the interrupt will know when the translation is done before it rerun the conversion again.
 everytime the conversion is down it will return/set a global variable  with the temperatur value
 ___
