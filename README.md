@@ -48,8 +48,10 @@ ___
 # Our Frst timer
 
 ![Minion](Timer1.png) 
+___
 
 The first timer is running at a 1 second clock, as wish it will Write what we need on the display, as we set the MenuKey global variable to D, at the start of the program. it will start to desplay our temperature until the keypad input change the  return/global variable MenuKey
+___
 
 ![Minion](Settemp.png) 
 
