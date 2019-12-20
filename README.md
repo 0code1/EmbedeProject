@@ -32,6 +32,7 @@ ___
 ![Minion](ADC.png)
 
 ___
+
 The ADC converts an anlog input voltage to a 10-bit digital value. wiht the help of an ADCSR bit the interrupt will know when the translation is done before it rerun the conversion again.
 everytime the conversion is down it will return/set a global variable  with the temperatur value
 ___
@@ -39,6 +40,7 @@ ___
 # Interrupt Flowshart
 
 ![Minion](Interrupt.png)
+___
 
 the interrupt are use by your keypad, the explaination of the function and an earlier verrsion will be at 
 [Markdown](https://github.com/0code1/Keypadx)
@@ -54,6 +56,7 @@ The first timer is running at a 1 second clock, as wish it will Write what we ne
 ___
 
 ![Minion](Settemp.png) 
+___
 
 here we can see if our Keymenu is on the other option, we will have the possibility to change the temperature  limit
 with the help of keyinput and Menukey
