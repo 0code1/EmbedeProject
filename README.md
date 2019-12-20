@@ -45,7 +45,7 @@ ___
 
 the interrupt are use by your keypad, the explaination of the function and an earlier verrsion will be at this
 [Link](https://github.com/0code1/Keypadx)
-The Timer1 will be depending on the interrupt function return/global variable to be able to know what the write on the lcd
+The Timer1 will be depending on the interrupt function return/global variable to be able to know what must be display on the LCD.
 ___
 
 # Our Frst timer
