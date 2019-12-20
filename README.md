@@ -29,7 +29,45 @@ ___
 
 # The ADC flowshart
 
-![Minion](flowsharts.png)
+![Minion](ADC.png)
 
 ___
-The ADC interrupt will be runnning  everytime that the ADCSRA bit is flip to 
+The ADC converts an anlog input voltage to a 10-bit digital value. wiht the help of an ADCSR bit the interrupt will know when the translation is done before it rerun the conversion again.
+everytime the conversion is down it will return/set a global variable  with the temperatur value
+___
+
+# Interrupt Flowshart
+
+![Minion](Interrupt.png)
+
+the interrupt are use by your keypad, the explaination of the function and an earlier verrsion will be at 
+[Markdown](https://github.com/0code1/Keypadx)
+The Timer1 will be depending on the interrupt function return/global variable to be able to know what the write on the lcd
+___
+
+# Our Frst timer
+
+![Minion](Timer1.png) 
+
+The first timer is running at a 1 second clock, as wish it will Write what we need on the display, as we set the MenuKey global variable to D, at the start of the program. it will start to desplay our temperature until the keypad input change the  return/global variable MenuKey
+
+![Minion](Settemp.png) 
+
+here we can see if our Keymenu is on the other option, we will have the possibility to change the temperature  limit
+with the help of keyinput and Menukey
+
+___
+
+# Timer2 flowshart
+
+![Minion](Timer2.png)
+___
+
+The timer2 is running at a clockrate of 5 second and have too function the first one FanContoller(temperature)  will set the fun speed depending on the return/global variable  to set the fan speed. and the colorController(temperature) will set the color on  a HUE led in different color with the same return/global variable.
+___
+
+
+
+
+
+
